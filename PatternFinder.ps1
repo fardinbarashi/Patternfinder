@@ -13,10 +13,8 @@
 
 .NOTES
    Mail : Fardin.barashi@gmail.com
-   Github : Fardin
-
-#>>
-
+   Github : https://github.com/fardinbarashi/Patternfinder
+   Github Profile : https://github.com/fardinbarashi/
 #>
 
 # Net Assembly
