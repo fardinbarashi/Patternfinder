@@ -31,7 +31,7 @@ $Logfile = "$PSScriptRoot\Files\Logs\Logfile.txt" # Logfile To transcript
 $XMLFile = "$PSScriptRoot\Files\ListviewColumn\Columns.xml" # XML Column File to Listview
 [XML]$Script:XML = Get-Content $XMLFile
 $FilesSearchCsv = "$PSScriptRoot\Files\ListviewData\ListViewData.csv" # FileSearch Query
-$FaqFile = "$PSScriptRoot\Files\Help\Faq\Faq.txt"
+$FaqFile = "$PSScriptRoot\Files\Help\Faq.txt"
 
 # End FilePath
 # Start FunctionList
