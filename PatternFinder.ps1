@@ -57,13 +57,13 @@ $StartItem = New-Object System.Windows.Forms.ListViewItem(" Start - File Attribu
 $StartItem.BackColor = "Black"
 $StartItem.ForeColor = "White"
 $LvMain.Items.Add($StartItem)                   
-$Item = New-Object System.Windows.Forms.ListViewItem(" Xml - FileName :")
+$Item = New-Object System.Windows.Forms.ListViewItem(" FileName :")
 $Item.SubItems.Add($_.Filename) 
 $LvMain.Items.Add($Item)                                             
-$Item = New-Object System.Windows.Forms.ListViewItem(" Xml - Path :")
+$Item = New-Object System.Windows.Forms.ListViewItem(" Path :")
 $Item.SubItems.Add($_.Path) 
 $LvMain.Items.Add($Item)
-$Item = New-Object System.Windows.Forms.ListViewItem(" Xml - LineNumber :")
+$Item = New-Object System.Windows.Forms.ListViewItem(" LineNumber :")
 $Item.SubItems.Add($_.LineNumber) 
 $LvMain.Items.Add($Item)                            
 $EndItem = New-Object System.Windows.Forms.ListViewItem(" End - File Attribute ")
